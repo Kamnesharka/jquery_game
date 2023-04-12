@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-20 {
+    width: 18%;
+
+}
+
+.space {
+    justify-content: space-between;
+    
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #3c2660;
+}
+
+.cards {
+    padding: 15px;
+}
+
+.container {
+    background-color: bisque;
+    width: 800px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.right {
+    justify-content: right;
+}
+
+.block {
+    padding: 15px;
+}
+
+.card {
+    height: 150px;
+    
+}
+
+.git {
+    background: url(img/git.png) center/contain no-repeat;
+    background-color: #3c2660;
+}
+
+.inst {
+    background: url(img/inst.png) center/contain no-repeat;
+    background-color: #3c2660;
+}
+
+.telegram {
+    background: url(img/t.png) center/contain no-repeat;
+    background-color: #3c2660;
+}
+
+.twit {
+    background: url(img/twit.png) center/contain no-repeat;
+    background-color: #3c2660;
+}
+
+.you {
+    background: url(img/you.png) center/contain no-repeat;
+    background-color: #3c2660;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.active {
+    background: url(img/card.jpg) center/cover no-repeat;
+}
+
+.match {
+    background-color: #3c26605d;
+}
+
+.field {
+    position: relative;
+}
+
+.none {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 235, 215, 0.481);
+    
+}
+
+.block_none {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.message {
+    position: absolute;
+    align-self: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
